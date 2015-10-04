@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6947E51E1AB6286300CE80E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6947E51D1AB6286300CE80E8 /* Images.xcassets */; };
+		9C231CB1156480400009327B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C231CB0156480400009327B /* MainStoryboard.storyboard */; };
+		9C2ADF211587FC2F001BE565 /* MainStoryboard~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ADF201587FC2F001BE565 /* MainStoryboard~ipad.storyboard */; };
+		9C4AD94F1576E6D30032CC98 /* TnTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AD94E1576E6D30032CC98 /* TnTSettingsViewController.m */; };
+		9C5C3A1B1579860300506EE6 /* bkgdBubble1_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C3A191579860300506EE6 /* bkgdBubble1_fun.png */; };
+		9C5C3A1C1579860300506EE6 /* bkgdBubble2_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C3A1A1579860300506EE6 /* bkgdBubble2_fun.png */; };
+		9C5C3A1F1579886300506EE6 /* SeeAnswer_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C3A1E1579886300506EE6 /* SeeAnswer_fun.png */; };
+		9C5C3A301579A6F000506EE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C3A2F1579A6F000506EE6 /* Default.png */; };
+		9C5C3A321579A6F600506EE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C3A311579A6F600506EE6 /* Default@2x.png */; };
+		9C71F90E195BE0C6004BE679 /* truth-r-questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C71F90D195BE0C6004BE679 /* truth-r-questions.txt */; };
+		9C89696416603193007866B1 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C89696316603193007866B1 /* icon_57.png */; };
+		9C896966166031A1007866B1 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C896965166031A1007866B1 /* icon_114.png */; };
+		9C89696816603364007866B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C89696716603364007866B1 /* Default-568h@2x.png */; };
+		9CAE6497157C03EC00BDC59A /* Main_simple 10 large.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE6495157C03EC00BDC59A /* Main_simple 10 large.png */; };
+		9CAE6498157C03EC00BDC59A /* Main_simple 10 small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE6496157C03EC00BDC59A /* Main_simple 10 small.png */; };
+		9CAE6510157C0C1C00BDC59A /* trivia-questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE650E157C0C1C00BDC59A /* trivia-questions.txt */; };
+		9CAE6511157C0C1C00BDC59A /* truth-questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE650F157C0C1C00BDC59A /* truth-questions.txt */; };
+		9CAE6514157C0D0B00BDC59A /* TnTQuestionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE6513157C0D0B00BDC59A /* TnTQuestionObject.m */; };
+		9CB74145157677DE00C0A448 /* NSMutableArray+NSMAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB74144157677DE00C0A448 /* NSMutableArray+NSMAUtils.m */; };
+		9CE8E98A15796D4A004B0714 /* BkgdOrange_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E98515796D4A004B0714 /* BkgdOrange_fun.png */; };
+		9CE8E98B15796D4A004B0714 /* BkgdRed_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E98615796D4A004B0714 /* BkgdRed_fun.png */; };
+		9CE8E98C15796D4A004B0714 /* minusButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E98715796D4A004B0714 /* minusButton_fun.png */; };
+		9CE8E98D15796D4A004B0714 /* playButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E98815796D4A004B0714 /* playButton_fun.png */; };
+		9CE8E98E15796D4A004B0714 /* plusButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E98915796D4A004B0714 /* plusButton_fun.png */; };
+		9CE8E9A215796D65004B0714 /* -_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99515796D65004B0714 /* -_simple.png */; };
+		9CE8E9A315796D65004B0714 /* +_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99615796D65004B0714 /* +_simple.png */; };
+		9CE8E9A415796D65004B0714 /* Back_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99715796D65004B0714 /* Back_simple.png */; };
+		9CE8E9A515796D65004B0714 /* BackBubble_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99815796D65004B0714 /* BackBubble_simple.png */; };
+		9CE8E9A615796D65004B0714 /* bkgd_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99915796D65004B0714 /* bkgd_simple.png */; };
+		9CE8E9A715796D65004B0714 /* OtherBkgdBubble_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99A15796D65004B0714 /* OtherBkgdBubble_simple.png */; };
+		9CE8E9A815796D65004B0714 /* Play_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99B15796D65004B0714 /* Play_simple.png */; };
+		9CE8E9AA15796D65004B0714 /* SeeAnswer_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99D15796D65004B0714 /* SeeAnswer_simple.png */; };
+		9CE8E9AB15796D65004B0714 /* Settings_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99E15796D65004B0714 /* Settings_simple.png */; };
+		9CE8E9AC15796D65004B0714 /* Shake_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E99F15796D65004B0714 /* Shake_simple.png */; };
+		9CE8E9AD15796D65004B0714 /* Trivia_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9A015796D65004B0714 /* Trivia_simple.png */; };
+		9CE8E9AE15796D65004B0714 /* Truth_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9A115796D65004B0714 /* Truth_simple.png */; };
+		9CE8E9B4157971A1004B0714 /* Main_simple 6 OpeningScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9B3157971A1004B0714 /* Main_simple 6 OpeningScreen.png */; };
+		9CE8E9BB157978AE004B0714 /* Back_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9B9157978AE004B0714 /* Back_fun.png */; };
+		9CE8E9BC157978AE004B0714 /* Main_fun 6 OpeningScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9BA157978AE004B0714 /* Main_fun 6 OpeningScreen.png */; };
+		9CE8E9BE15797C75004B0714 /* Settings_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9BD15797C75004B0714 /* Settings_fun.png */; };
+		9CE8E9C115797FDF004B0714 /* BkgdAqua_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9BF15797FDF004B0714 /* BkgdAqua_fun.png */; };
+		9CE8E9C215797FDF004B0714 /* shakeButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9C015797FDF004B0714 /* shakeButton_fun.png */; };
+		9CE8E9C6157982BC004B0714 /* BkgdLime_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9C3157982BC004B0714 /* BkgdLime_fun.png */; };
+		9CE8E9C7157982BC004B0714 /* triviaButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9C4157982BC004B0714 /* triviaButton_fun.png */; };
+		9CE8E9C8157982BC004B0714 /* truthButton_fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8E9C5157982BC004B0714 /* truthButton_fun.png */; };
+		AAB3CD5E153BAF5900FEF208 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB3CD5D153BAF5900FEF208 /* UIKit.framework */; };
+		AAB3CD60153BAF5900FEF208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB3CD5F153BAF5900FEF208 /* Foundation.framework */; };
+		AAB3CD62153BAF5900FEF208 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB3CD61153BAF5900FEF208 /* CoreGraphics.framework */; };
+		AAB3CD68153BAF5900FEF208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CD66153BAF5900FEF208 /* InfoPlist.strings */; };
+		AAB3CD6A153BAF5900FEF208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CD69153BAF5900FEF208 /* main.m */; };
+		AAB3CD6E153BAF5900FEF208 /* TnTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CD6D153BAF5900FEF208 /* TnTAppDelegate.m */; };
+		AAB3CD74153BAF5900FEF208 /* TnTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CD73153BAF5900FEF208 /* TnTViewController.m */; };
+		AAB3CD7F153BDFB200FEF208 /* TnTQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CD7E153BDFB200FEF208 /* TnTQuestionViewController.m */; };
+		AAE3EFF0153C958400075744 /* TnTGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3EFEF153C958400075744 /* TnTGameState.m */; };
+		AAE3EFF4153C9DB900075744 /* TnTNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3EFF3153C9DB900075744 /* TnTNamesViewController.m */; };
+		AAE3EFF7153CA09B00075744 /* TnTShakeItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3EFF6153CA09B00075744 /* TnTShakeItViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6947E51D1AB6286300CE80E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Truth or Trivia/Images.xcassets"; sourceTree = "<group>"; };
+		9C231CB0156480400009327B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9C2ADF1D1587F9CB001BE565 /* Truth or Trivia copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Truth or Trivia copy-Info.plist"; path = "/Users/amykarolinehaeuser/Dropbox/Stephen Share/Truth and Trivia/Truth or Trivia copy-Info.plist"; sourceTree = "<absolute>"; };
+		9C2ADF201587FC2F001BE565 /* MainStoryboard~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "MainStoryboard~ipad.storyboard"; sourceTree = "<group>"; };
+		9C4AD94D1576E6D30032CC98 /* TnTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTSettingsViewController.h; sourceTree = "<group>"; };
+		9C4AD94E1576E6D30032CC98 /* TnTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTSettingsViewController.m; sourceTree = "<group>"; };
+		9C5C3A191579860300506EE6 /* bkgdBubble1_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bkgdBubble1_fun.png; path = "images/Fun Palette Elements/bkgdBubble1_fun.png"; sourceTree = "<group>"; };
+		9C5C3A1A1579860300506EE6 /* bkgdBubble2_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bkgdBubble2_fun.png; path = "images/Fun Palette Elements/bkgdBubble2_fun.png"; sourceTree = "<group>"; };
+		9C5C3A1E1579886300506EE6 /* SeeAnswer_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeeAnswer_fun.png; path = "images/Fun Palette Elements/SeeAnswer_fun.png"; sourceTree = "<group>"; };
+		9C5C3A2F1579A6F000506EE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9C5C3A311579A6F600506EE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9C71F90D195BE0C6004BE679 /* truth-r-questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "truth-r-questions.txt"; sourceTree = "<group>"; };
+		9C89696316603193007866B1 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		9C896965166031A1007866B1 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		9C89696716603364007866B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CAE6495157C03EC00BDC59A /* Main_simple 10 large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_simple 10 large.png"; sourceTree = "<group>"; };
+		9CAE6496157C03EC00BDC59A /* Main_simple 10 small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_simple 10 small.png"; sourceTree = "<group>"; };
+		9CAE650E157C0C1C00BDC59A /* trivia-questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "trivia-questions.txt"; sourceTree = "<group>"; };
+		9CAE650F157C0C1C00BDC59A /* truth-questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "truth-questions.txt"; sourceTree = "<group>"; };
+		9CAE6512157C0D0B00BDC59A /* TnTQuestionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTQuestionObject.h; sourceTree = "<group>"; };
+		9CAE6513157C0D0B00BDC59A /* TnTQuestionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTQuestionObject.m; sourceTree = "<group>"; };
+		9CB74143157677DE00C0A448 /* NSMutableArray+NSMAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+NSMAUtils.h"; path = "Truth and Trivia/NSMutableArray+NSMAUtils.h"; sourceTree = "<group>"; };
+		9CB74144157677DE00C0A448 /* NSMutableArray+NSMAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+NSMAUtils.m"; path = "Truth and Trivia/NSMutableArray+NSMAUtils.m"; sourceTree = "<group>"; };
+		9CE8E98515796D4A004B0714 /* BkgdOrange_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BkgdOrange_fun.png; path = "images/Fun Palette Elements/BkgdOrange_fun.png"; sourceTree = "<group>"; };
+		9CE8E98615796D4A004B0714 /* BkgdRed_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BkgdRed_fun.png; path = "images/Fun Palette Elements/BkgdRed_fun.png"; sourceTree = "<group>"; };
+		9CE8E98715796D4A004B0714 /* minusButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minusButton_fun.png; path = "images/Fun Palette Elements/minusButton_fun.png"; sourceTree = "<group>"; };
+		9CE8E98815796D4A004B0714 /* playButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton_fun.png; path = "images/Fun Palette Elements/playButton_fun.png"; sourceTree = "<group>"; };
+		9CE8E98915796D4A004B0714 /* plusButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusButton_fun.png; path = "images/Fun Palette Elements/plusButton_fun.png"; sourceTree = "<group>"; };
+		9CE8E99515796D65004B0714 /* -_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "-_simple.png"; path = "images/Simple Palette Elements/-_simple.png"; sourceTree = "<group>"; };
+		9CE8E99615796D65004B0714 /* +_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "+_simple.png"; path = "images/Simple Palette Elements/+_simple.png"; sourceTree = "<group>"; };
+		9CE8E99715796D65004B0714 /* Back_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_simple.png; path = "images/Simple Palette Elements/Back_simple.png"; sourceTree = "<group>"; };
+		9CE8E99815796D65004B0714 /* BackBubble_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackBubble_simple.png; path = "images/Simple Palette Elements/BackBubble_simple.png"; sourceTree = "<group>"; };
+		9CE8E99915796D65004B0714 /* bkgd_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bkgd_simple.png; path = "images/Simple Palette Elements/bkgd_simple.png"; sourceTree = "<group>"; };
+		9CE8E99A15796D65004B0714 /* OtherBkgdBubble_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherBkgdBubble_simple.png; path = "images/Simple Palette Elements/OtherBkgdBubble_simple.png"; sourceTree = "<group>"; };
+		9CE8E99B15796D65004B0714 /* Play_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Play_simple.png; path = "images/Simple Palette Elements/Play_simple.png"; sourceTree = "<group>"; };
+		9CE8E99D15796D65004B0714 /* SeeAnswer_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeeAnswer_simple.png; path = "images/Simple Palette Elements/SeeAnswer_simple.png"; sourceTree = "<group>"; };
+		9CE8E99E15796D65004B0714 /* Settings_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings_simple.png; path = "images/Simple Palette Elements/Settings_simple.png"; sourceTree = "<group>"; };
+		9CE8E99F15796D65004B0714 /* Shake_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shake_simple.png; path = "images/Simple Palette Elements/Shake_simple.png"; sourceTree = "<group>"; };
+		9CE8E9A015796D65004B0714 /* Trivia_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trivia_simple.png; path = "images/Simple Palette Elements/Trivia_simple.png"; sourceTree = "<group>"; };
+		9CE8E9A115796D65004B0714 /* Truth_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Truth_simple.png; path = "images/Simple Palette Elements/Truth_simple.png"; sourceTree = "<group>"; };
+		9CE8E9B3157971A1004B0714 /* Main_simple 6 OpeningScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main_simple 6 OpeningScreen.png"; path = "images/Simple Palette Elements/Main_simple 6 OpeningScreen.png"; sourceTree = "<group>"; };
+		9CE8E9B9157978AE004B0714 /* Back_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_fun.png; path = "images/Fun Palette Elements/Back_fun.png"; sourceTree = "<group>"; };
+		9CE8E9BA157978AE004B0714 /* Main_fun 6 OpeningScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main_fun 6 OpeningScreen.png"; path = "images/Fun Palette Elements/Main_fun 6 OpeningScreen.png"; sourceTree = "<group>"; };
+		9CE8E9BD15797C75004B0714 /* Settings_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings_fun.png; path = "images/Fun Palette Elements/Settings_fun.png"; sourceTree = "<group>"; };
+		9CE8E9BF15797FDF004B0714 /* BkgdAqua_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BkgdAqua_fun.png; path = "images/Fun Palette Elements/BkgdAqua_fun.png"; sourceTree = "<group>"; };
+		9CE8E9C015797FDF004B0714 /* shakeButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shakeButton_fun.png; path = "images/Fun Palette Elements/shakeButton_fun.png"; sourceTree = "<group>"; };
+		9CE8E9C3157982BC004B0714 /* BkgdLime_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BkgdLime_fun.png; path = "images/Fun Palette Elements/BkgdLime_fun.png"; sourceTree = "<group>"; };
+		9CE8E9C4157982BC004B0714 /* triviaButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triviaButton_fun.png; path = "images/Fun Palette Elements/triviaButton_fun.png"; sourceTree = "<group>"; };
+		9CE8E9C5157982BC004B0714 /* truthButton_fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truthButton_fun.png; path = "images/Fun Palette Elements/truthButton_fun.png"; sourceTree = "<group>"; };
+		AAB3CD59153BAF5900FEF208 /* Truth or Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth or Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB3CD5D153BAF5900FEF208 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAB3CD5F153BAF5900FEF208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB3CD61153BAF5900FEF208 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAB3CD65153BAF5900FEF208 /* Truth and Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Truth and Trivia-Info.plist"; sourceTree = "<group>"; };
+		AAB3CD67153BAF5900FEF208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB3CD69153BAF5900FEF208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB3CD6B153BAF5900FEF208 /* Truth and Trivia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Truth and Trivia-Prefix.pch"; sourceTree = "<group>"; };
+		AAB3CD6C153BAF5900FEF208 /* TnTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TnTAppDelegate.h; sourceTree = "<group>"; };
+		AAB3CD6D153BAF5900FEF208 /* TnTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TnTAppDelegate.m; sourceTree = "<group>"; };
+		AAB3CD72153BAF5900FEF208 /* TnTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TnTViewController.h; sourceTree = "<group>"; };
+		AAB3CD73153BAF5900FEF208 /* TnTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TnTViewController.m; sourceTree = "<group>"; };
+		AAB3CD7D153BDFB200FEF208 /* TnTQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTQuestionViewController.h; sourceTree = "<group>"; };
+		AAB3CD7E153BDFB200FEF208 /* TnTQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTQuestionViewController.m; sourceTree = "<group>"; };
+		AAE3EFEE153C958400075744 /* TnTGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTGameState.h; sourceTree = "<group>"; };
+		AAE3EFEF153C958400075744 /* TnTGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTGameState.m; sourceTree = "<group>"; };
+		AAE3EFF2153C9DB900075744 /* TnTNamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTNamesViewController.h; sourceTree = "<group>"; };
+		AAE3EFF3153C9DB900075744 /* TnTNamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTNamesViewController.m; sourceTree = "<group>"; };
+		AAE3EFF5153CA09B00075744 /* TnTShakeItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnTShakeItViewController.h; sourceTree = "<group>"; };
+		AAE3EFF6153CA09B00075744 /* TnTShakeItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnTShakeItViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB3CD56153BAF5900FEF208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB3CD5E153BAF5900FEF208 /* UIKit.framework in Frameworks */,
+				AAB3CD60153BAF5900FEF208 /* Foundation.framework in Frameworks */,
+				AAB3CD62153BAF5900FEF208 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9C19AD1566B78500B6BF09 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9CE8E9B015796D70004B0714 /* fun */,
+				9CE8E9AF15796D6B004B0714 /* simple */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		9CE8E9AF15796D6B004B0714 /* simple */ = {
+			isa = PBXGroup;
+			children = (
+				9CE8E9B3157971A1004B0714 /* Main_simple 6 OpeningScreen.png */,
+				9CE8E99515796D65004B0714 /* -_simple.png */,
+				9CE8E99615796D65004B0714 /* +_simple.png */,
+				9CE8E99715796D65004B0714 /* Back_simple.png */,
+				9CE8E99815796D65004B0714 /* BackBubble_simple.png */,
+				9CE8E99915796D65004B0714 /* bkgd_simple.png */,
+				9CE8E99A15796D65004B0714 /* OtherBkgdBubble_simple.png */,
+				9CE8E99B15796D65004B0714 /* Play_simple.png */,
+				9CE8E99D15796D65004B0714 /* SeeAnswer_simple.png */,
+				9CE8E99E15796D65004B0714 /* Settings_simple.png */,
+				9CE8E99F15796D65004B0714 /* Shake_simple.png */,
+				9CE8E9A015796D65004B0714 /* Trivia_simple.png */,
+				9CE8E9A115796D65004B0714 /* Truth_simple.png */,
+			);
+			name = simple;
+			sourceTree = "<group>";
+		};
+		9CE8E9B015796D70004B0714 /* fun */ = {
+			isa = PBXGroup;
+			children = (
+				9C5C3A1E1579886300506EE6 /* SeeAnswer_fun.png */,
+				9C5C3A191579860300506EE6 /* bkgdBubble1_fun.png */,
+				9C5C3A1A1579860300506EE6 /* bkgdBubble2_fun.png */,
+				9CE8E9C3157982BC004B0714 /* BkgdLime_fun.png */,
+				9CE8E9C4157982BC004B0714 /* triviaButton_fun.png */,
+				9CE8E9C5157982BC004B0714 /* truthButton_fun.png */,
+				9CE8E9BF15797FDF004B0714 /* BkgdAqua_fun.png */,
+				9CE8E9C015797FDF004B0714 /* shakeButton_fun.png */,
+				9CE8E9BD15797C75004B0714 /* Settings_fun.png */,
+				9CE8E9B9157978AE004B0714 /* Back_fun.png */,
+				9CE8E9BA157978AE004B0714 /* Main_fun 6 OpeningScreen.png */,
+				9CE8E98515796D4A004B0714 /* BkgdOrange_fun.png */,
+				9CE8E98615796D4A004B0714 /* BkgdRed_fun.png */,
+				9CE8E98715796D4A004B0714 /* minusButton_fun.png */,
+				9CE8E98815796D4A004B0714 /* playButton_fun.png */,
+				9CE8E98915796D4A004B0714 /* plusButton_fun.png */,
+			);
+			name = fun;
+			sourceTree = "<group>";
+		};
+		AAB3CD4E153BAF5900FEF208 = {
+			isa = PBXGroup;
+			children = (
+				6947E51D1AB6286300CE80E8 /* Images.xcassets */,
+				9C89696716603364007866B1 /* Default-568h@2x.png */,
+				9C896965166031A1007866B1 /* icon_114.png */,
+				9C89696316603193007866B1 /* icon_57.png */,
+				9CAE6495157C03EC00BDC59A /* Main_simple 10 large.png */,
+				9CAE6496157C03EC00BDC59A /* Main_simple 10 small.png */,
+				9C5C3A311579A6F600506EE6 /* Default@2x.png */,
+				9C5C3A2F1579A6F000506EE6 /* Default.png */,
+				9CB74143157677DE00C0A448 /* NSMutableArray+NSMAUtils.h */,
+				9CB74144157677DE00C0A448 /* NSMutableArray+NSMAUtils.m */,
+				AAB3CD63153BAF5900FEF208 /* Truth and Trivia */,
+				AAB3CD5C153BAF5900FEF208 /* Frameworks */,
+				AAB3CD5A153BAF5900FEF208 /* Products */,
+				9C2ADF1D1587F9CB001BE565 /* Truth or Trivia copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB3CD5A153BAF5900FEF208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3CD59153BAF5900FEF208 /* Truth or Trivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB3CD5C153BAF5900FEF208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3CD5D153BAF5900FEF208 /* UIKit.framework */,
+				AAB3CD5F153BAF5900FEF208 /* Foundation.framework */,
+				AAB3CD61153BAF5900FEF208 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB3CD63153BAF5900FEF208 /* Truth and Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				9CAE650E157C0C1C00BDC59A /* trivia-questions.txt */,
+				9C71F90D195BE0C6004BE679 /* truth-r-questions.txt */,
+				9CAE650F157C0C1C00BDC59A /* truth-questions.txt */,
+				9C9C19AD1566B78500B6BF09 /* images */,
+				AAB3CD6C153BAF5900FEF208 /* TnTAppDelegate.h */,
+				AAB3CD6D153BAF5900FEF208 /* TnTAppDelegate.m */,
+				9C231CB0156480400009327B /* MainStoryboard.storyboard */,
+				9C2ADF201587FC2F001BE565 /* MainStoryboard~ipad.storyboard */,
+				AAB3CD72153BAF5900FEF208 /* TnTViewController.h */,
+				9C4AD94D1576E6D30032CC98 /* TnTSettingsViewController.h */,
+				9C4AD94E1576E6D30032CC98 /* TnTSettingsViewController.m */,
+				AAB3CD73153BAF5900FEF208 /* TnTViewController.m */,
+				AAB3CD64153BAF5900FEF208 /* Supporting Files */,
+				AAB3CD7D153BDFB200FEF208 /* TnTQuestionViewController.h */,
+				AAB3CD7E153BDFB200FEF208 /* TnTQuestionViewController.m */,
+				AAE3EFEE153C958400075744 /* TnTGameState.h */,
+				AAE3EFEF153C958400075744 /* TnTGameState.m */,
+				AAE3EFF2153C9DB900075744 /* TnTNamesViewController.h */,
+				AAE3EFF3153C9DB900075744 /* TnTNamesViewController.m */,
+				AAE3EFF5153CA09B00075744 /* TnTShakeItViewController.h */,
+				AAE3EFF6153CA09B00075744 /* TnTShakeItViewController.m */,
+				9CAE6512157C0D0B00BDC59A /* TnTQuestionObject.h */,
+				9CAE6513157C0D0B00BDC59A /* TnTQuestionObject.m */,
+			);
+			path = "Truth and Trivia";
+			sourceTree = "<group>";
+		};
+		AAB3CD64153BAF5900FEF208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3CD65153BAF5900FEF208 /* Truth and Trivia-Info.plist */,
+				AAB3CD66153BAF5900FEF208 /* InfoPlist.strings */,
+				AAB3CD69153BAF5900FEF208 /* main.m */,
+				AAB3CD6B153BAF5900FEF208 /* Truth and Trivia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB3CD58153BAF5900FEF208 /* Truth or Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB3CD77153BAF5900FEF208 /* Build configuration list for PBXNativeTarget "Truth or Trivia" */;
+			buildPhases = (
+				AAB3CD55153BAF5900FEF208 /* Sources */,
+				AAB3CD56153BAF5900FEF208 /* Frameworks */,
+				AAB3CD57153BAF5900FEF208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truth or Trivia";
+			productName = "Truth and Trivia";
+			productReference = AAB3CD59153BAF5900FEF208 /* Truth or Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB3CD50153BAF5900FEF208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TnT;
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					AAB3CD58153BAF5900FEF208 = {
+						DevelopmentTeam = N49S8X9AK3;
+					};
+				};
+			};
+			buildConfigurationList = AAB3CD53153BAF5900FEF208 /* Build configuration list for PBXProject "Truth or Trivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB3CD4E153BAF5900FEF208;
+			productRefGroup = AAB3CD5A153BAF5900FEF208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB3CD58153BAF5900FEF208 /* Truth or Trivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB3CD57153BAF5900FEF208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB3CD68153BAF5900FEF208 /* InfoPlist.strings in Resources */,
+				9C231CB1156480400009327B /* MainStoryboard.storyboard in Resources */,
+				9CE8E98A15796D4A004B0714 /* BkgdOrange_fun.png in Resources */,
+				9CE8E98B15796D4A004B0714 /* BkgdRed_fun.png in Resources */,
+				9CE8E98C15796D4A004B0714 /* minusButton_fun.png in Resources */,
+				9CE8E98D15796D4A004B0714 /* playButton_fun.png in Resources */,
+				9CE8E98E15796D4A004B0714 /* plusButton_fun.png in Resources */,
+				9CE8E9A215796D65004B0714 /* -_simple.png in Resources */,
+				9CE8E9A315796D65004B0714 /* +_simple.png in Resources */,
+				9CE8E9A415796D65004B0714 /* Back_simple.png in Resources */,
+				9CE8E9A515796D65004B0714 /* BackBubble_simple.png in Resources */,
+				9CE8E9A615796D65004B0714 /* bkgd_simple.png in Resources */,
+				9CE8E9A715796D65004B0714 /* OtherBkgdBubble_simple.png in Resources */,
+				9CE8E9A815796D65004B0714 /* Play_simple.png in Resources */,
+				9CE8E9AA15796D65004B0714 /* SeeAnswer_simple.png in Resources */,
+				9CE8E9AB15796D65004B0714 /* Settings_simple.png in Resources */,
+				9CE8E9AC15796D65004B0714 /* Shake_simple.png in Resources */,
+				9CE8E9AD15796D65004B0714 /* Trivia_simple.png in Resources */,
+				9CE8E9AE15796D65004B0714 /* Truth_simple.png in Resources */,
+				9C71F90E195BE0C6004BE679 /* truth-r-questions.txt in Resources */,
+				9CE8E9B4157971A1004B0714 /* Main_simple 6 OpeningScreen.png in Resources */,
+				9CE8E9BB157978AE004B0714 /* Back_fun.png in Resources */,
+				9CE8E9BC157978AE004B0714 /* Main_fun 6 OpeningScreen.png in Resources */,
+				9CE8E9BE15797C75004B0714 /* Settings_fun.png in Resources */,
+				6947E51E1AB6286300CE80E8 /* Images.xcassets in Resources */,
+				9CE8E9C115797FDF004B0714 /* BkgdAqua_fun.png in Resources */,
+				9CE8E9C215797FDF004B0714 /* shakeButton_fun.png in Resources */,
+				9CE8E9C6157982BC004B0714 /* BkgdLime_fun.png in Resources */,
+				9CE8E9C7157982BC004B0714 /* triviaButton_fun.png in Resources */,
+				9CE8E9C8157982BC004B0714 /* truthButton_fun.png in Resources */,
+				9C5C3A1B1579860300506EE6 /* bkgdBubble1_fun.png in Resources */,
+				9C5C3A1C1579860300506EE6 /* bkgdBubble2_fun.png in Resources */,
+				9C5C3A1F1579886300506EE6 /* SeeAnswer_fun.png in Resources */,
+				9C5C3A301579A6F000506EE6 /* Default.png in Resources */,
+				9C5C3A321579A6F600506EE6 /* Default@2x.png in Resources */,
+				9CAE6497157C03EC00BDC59A /* Main_simple 10 large.png in Resources */,
+				9CAE6498157C03EC00BDC59A /* Main_simple 10 small.png in Resources */,
+				9CAE6510157C0C1C00BDC59A /* trivia-questions.txt in Resources */,
+				9CAE6511157C0C1C00BDC59A /* truth-questions.txt in Resources */,
+				9C2ADF211587FC2F001BE565 /* MainStoryboard~ipad.storyboard in Resources */,
+				9C89696416603193007866B1 /* icon_57.png in Resources */,
+				9C896966166031A1007866B1 /* icon_114.png in Resources */,
+				9C89696816603364007866B1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB3CD55153BAF5900FEF208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB3CD6A153BAF5900FEF208 /* main.m in Sources */,
+				AAB3CD6E153BAF5900FEF208 /* TnTAppDelegate.m in Sources */,
+				AAB3CD74153BAF5900FEF208 /* TnTViewController.m in Sources */,
+				AAB3CD7F153BDFB200FEF208 /* TnTQuestionViewController.m in Sources */,
+				AAE3EFF0153C958400075744 /* TnTGameState.m in Sources */,
+				AAE3EFF4153C9DB900075744 /* TnTNamesViewController.m in Sources */,
+				AAE3EFF7153CA09B00075744 /* TnTShakeItViewController.m in Sources */,
+				9CB74145157677DE00C0A448 /* NSMutableArray+NSMAUtils.m in Sources */,
+				9C4AD94F1576E6D30032CC98 /* TnTSettingsViewController.m in Sources */,
+				9CAE6514157C0D0B00BDC59A /* TnTQuestionObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAB3CD66153BAF5900FEF208 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB3CD67153BAF5900FEF208 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB3CD75153BAF5900FEF208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amy Haeuser (9WCLFH3BMA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amy Haeuser (9WCLFH3BMA)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB3CD76153BAF5900FEF208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amy Haeuser (9WCLFH3BMA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amy Haeuser (9WCLFH3BMA)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB3CD78153BAF5900FEF208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Truth and Trivia/Truth and Trivia-Prefix.pch";
+				INFOPLIST_FILE = "Truth and Trivia/Truth and Trivia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Truth or Trivia";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "095ADE6D-4F48-4ADF-9076-C16B67F2995F";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAB3CD79153BAF5900FEF208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Truth and Trivia/Truth and Trivia-Prefix.pch";
+				INFOPLIST_FILE = "Truth and Trivia/Truth and Trivia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Truth or Trivia";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "095ADE6D-4F48-4ADF-9076-C16B67F2995F";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB3CD53153BAF5900FEF208 /* Build configuration list for PBXProject "Truth or Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB3CD75153BAF5900FEF208 /* Debug */,
+				AAB3CD76153BAF5900FEF208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB3CD77153BAF5900FEF208 /* Build configuration list for PBXNativeTarget "Truth or Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB3CD78153BAF5900FEF208 /* Debug */,
+				AAB3CD79153BAF5900FEF208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB3CD50153BAF5900FEF208 /* Project object */;
+}

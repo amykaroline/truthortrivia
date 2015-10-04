@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--TnT Names View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="TnTNamesViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="jnX-hQ-deu">
+                                <rect key="frame" x="-6" y="0.0" width="334" height="466"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1" borderStyle="roundedRect" minimumFontSize="17" id="eHi-Z9-cNN">
+                                <rect key="frame" x="66" y="117" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="player1NameDidEndOnExit:" destination="2" eventType="editingDidEndOnExit" id="Vjj-kW-UOF"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2" borderStyle="roundedRect" minimumFontSize="17" id="DUQ-FI-yry">
+                                <rect key="frame" x="66" y="156" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="player2NameDidEndOnExit:" destination="2" eventType="editingDidEndOnExit" id="sqZ-Q6-8Yb"/>
+                                </connections>
+                            </textField>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 3" borderStyle="roundedRect" minimumFontSize="17" id="Kg4-pf-wpP">
+                                <rect key="frame" x="66" y="195" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="player3NameDidEndOnExit:" destination="2" eventType="editingDidEndOnExit" id="aQa-d3-a4T"/>
+                                </connections>
+                            </textField>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 4" borderStyle="roundedRect" minimumFontSize="17" id="Ma2-4g-iJ3">
+                                <rect key="frame" x="66" y="234" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="player4NameDidEndOnExit:" destination="2" eventType="editingDidEndOnExit" id="Ra8-MT-AY6"/>
+                                </connections>
+                            </textField>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 5" borderStyle="roundedRect" minimumFontSize="17" id="Z8B-LW-SSO">
+                                <rect key="frame" x="66" y="273" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="player5NameDidEndOnExit:" destination="2" eventType="editingDidEndOnExit" id="z8f-y1-GoH"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RDh-Jt-Ibh">
+                                <rect key="frame" x="39" y="317" width="236" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1.3877787807814457e-17" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="68"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" image="Play_simple.png">
+                                    <color key="titleColor" red="0.38867069614123695" green="0.52482823037988124" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NpB-dp-D0w" kind="modal" id="xYm-jo-GaH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="JeY-kJ-a8z">
+                                <rect key="frame" x="262" y="209" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="+_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addPlayerButtonPressed:" destination="2" eventType="touchUpInside" id="Rv6-bB-goN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="T0S-uz-npJ">
+                                <rect key="frame" x="11" y="209" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="-_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removePlayerButtonPressed:" destination="2" eventType="touchUpInside" id="lvL-42-3wE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wbl-Rj-ZIC">
+                                <rect key="frame" x="227" y="6" width="87" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Settings_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dbg-Cm-38N" kind="modal" modalTransitionStyle="flipHorizontal" id="cph-AM-eUk"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Main_simple 6 OpeningScreen.png" id="Auy-S9-eI9">
+                                <rect key="frame" x="10" y="26" width="303" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39130437369999999" green="0.080697461959999994" blue="0.062234088780000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gUw-B5-IFd"/>
+                    <connections>
+                        <outlet property="addPlayerButton" destination="JeY-kJ-a8z" id="GUV-fv-rhQ"/>
+                        <outlet property="bkgdImage" destination="jnX-hQ-deu" id="UDK-Mh-ieO"/>
+                        <outlet property="minusButton" destination="T0S-uz-npJ" id="BhH-WL-wiS"/>
+                        <outlet property="openingTitleImage" destination="Auy-S9-eI9" id="7Om-5c-QlC"/>
+                        <outlet property="playButton" destination="RDh-Jt-Ibh" id="eBb-5i-ddk"/>
+                        <outlet property="player3Name" destination="Kg4-pf-wpP" id="sT9-ln-d9G"/>
+                        <outlet property="player4Name" destination="Ma2-4g-iJ3" id="xJ0-Av-m4i"/>
+                        <outlet property="player5Name" destination="Z8B-LW-SSO" id="HNc-3I-X0N"/>
+                        <outlet property="playerName1" destination="eHi-Z9-cNN" id="xNh-M6-KYB"/>
+                        <outlet property="playerName2" destination="DUQ-FI-yry" id="Z81-BB-7ZT"/>
+                        <outlet property="plusButton" destination="JeY-kJ-a8z" id="DgC-h5-oE7"/>
+                        <outlet property="removePlayerButton" destination="T0S-uz-npJ" id="8bR-po-8ah"/>
+                        <outlet property="settingsButton" destination="wbl-Rj-ZIC" id="trm-WR-tfy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="307"/>
+        </scene>
+        <!--TnT Settings View Controller-->
+        <scene sceneID="M7c-Lm-MWh">
+            <objects>
+                <viewController id="Dbg-Cm-38N" customClass="TnTSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NWq-oF-5ZS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="SJX-Da-EvG">
+                                <rect key="frame" x="20" y="20" width="280" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gSK-7Y-v3k">
+                                <rect key="frame" x="6" y="9" width="87" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Back_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="db6-Cf-Y2P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fun Skin!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="qEA-k2-erI">
+                                <rect key="frame" x="77" y="49" width="108" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="f80-MO-PQy">
+                                <rect key="frame" x="193" y="48" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="0.27040815350000003" green="0.047041404990000001" blue="0.076478086410000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="funSkinSwitchChanged:" destination="Dbg-Cm-38N" eventType="valueChanged" id="ca2-4x-lDc"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Built by Amy Karoline" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ADY-fU-fEE">
+                                <rect key="frame" x="42" y="320" width="234" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="MoZ-bz-ikl">
+                                <rect key="frame" x="-102" y="274" width="527" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Have a suggestion or correction?  
+Email truthortrivia@gmail.com</string>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="1iA-qE-paY">
+                                <rect key="frame" x="193" y="87" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="nqo-m2-QIh">
+                                <rect key="frame" x="16" y="126" width="288" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Create Your Own" backgroundImage="OtherBkgdBubble_simple.png">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.83921568629999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dxB-6E-BDc" kind="modal" id="92O-AL-Xe1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXX" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6J0-u7-FJ9">
+                                <rect key="frame" x="77" y="92" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.99607843137254903" green="0.83921568627450982" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="l3k-2V-oTJ">
+                                <rect key="frame" x="-8" y="-7" width="338" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="gSK-7Y-v3k" id="2LH-W0-uC0"/>
+                        <outlet property="bkgdImage" destination="l3k-2V-oTJ" id="Rbh-ec-k7X"/>
+                        <outlet property="builtByLabel" destination="ADY-fU-fEE" id="BB4-qc-VRS"/>
+                        <outlet property="funSkinSwitch" destination="f80-MO-PQy" id="eqI-VH-85L"/>
+                        <outlet property="funSkinSwitchLabel" destination="qEA-k2-erI" id="rf6-6o-q4J"/>
+                        <outlet property="supportLabel" destination="MoZ-bz-ikl" id="Wzd-Bb-BGx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiN-GY-lBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637" y="336"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="snm-pk-OKj">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="dxB-6E-BDc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bj1-eq-2qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143" y="690"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="dlV-nG-BXS">
+            <objects>
+                <viewController id="NpB-dp-D0w" customClass="TnTShakeItViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KHr-g6-y1A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="t1S-hI-Uni">
+                                <rect key="frame" x="-5" y="0.0" width="330" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="v6L-Ys-0xt">
+                                <rect key="frame" x="20" y="178" width="280" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <state key="normal" image="Shake_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shakeItButtonPressed:" destination="NpB-dp-D0w" eventType="touchUpInside" id="XrF-5A-wfF"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="B0m-gn-X0v">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.27040815350000003" green="0.047041404990000001" blue="0.076478086410000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.43137258291244507" green="0.090196080505847931" blue="0.070588238537311554" alpha="1" colorSpace="deviceRGB"/>
+                                <items>
+                                    <navigationItem title="Shake It" id="Srq-QD-b7v">
+                                        <barButtonItem key="backBarButtonItem" title="back now" id="Ve8-Lo-YCx"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Players" id="aBt-Er-3UZ">
+                                            <connections>
+                                                <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="e6R-SM-qTe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="uwf-LT-SPO">
+                                <rect key="frame" x="20" y="44" width="280" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Shake to select
+next player</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="HaO-0a-nrG">
+                                <rect key="frame" x="20" y="364" width="280" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="yuA-yW-MnU"/>
+                    <connections>
+                        <outlet property="bkgdImage" destination="t1S-hI-Uni" id="7MH-OG-ekf"/>
+                        <outlet property="navBar" destination="B0m-gn-X0v" id="0fK-be-NBw"/>
+                        <outlet property="shakeItButton" destination="v6L-Ys-0xt" id="4Sq-nc-7VQ"/>
+                        <outlet property="shakeItLabel" destination="uwf-LT-SPO" id="8mN-Y3-cdt"/>
+                        <outlet property="shakerText" destination="HaO-0a-nrG" id="ma0-A6-vv5"/>
+                        <segue destination="Sk9-Xv-RLR" kind="modal" identifier="ShakeIt" id="sgN-su-T3j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GED-Vo-pU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="-277"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="r3e-ws-QQ7">
+            <objects>
+                <viewController id="Sk9-Xv-RLR" customClass="TnTViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y0i-gv-L8J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="k5B-LK-9FH">
+                                <rect key="frame" x="-7" y="0.0" width="335" height="467"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="NcC-Ic-aNS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.27040815350000003" green="0.047041404990000001" blue="0.076478086410000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Choose" id="xF0-oG-2ru">
+                                        <barButtonItem key="backBarButtonItem" title="back now" id="vos-p2-Gc9"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Player's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ms2-L3-XAW">
+                                <rect key="frame" x="29" y="44" width="263" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t1D-dX-u6p">
+                                <rect key="frame" x="68" y="275" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Truth_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NkS-Wa-eU9" kind="modal" identifier="TOWARDSTRUTH" modalTransitionStyle="coverVertical" id="vKu-zc-ASU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Q5m-7e-Y1K">
+                                <rect key="frame" x="68" y="94" width="185" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Trivia_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qaZ-Jl-lSN" kind="modal" identifier="TOWARDSTRIVIA" modalTransitionStyle="coverVertical" id="R0B-qh-Y6p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="sKB-h6-euI"/>
+                    <connections>
+                        <outlet property="bkgdImage" destination="k5B-LK-9FH" id="E2a-98-g9o"/>
+                        <outlet property="navBar" destination="NcC-Ic-aNS" id="LDG-c0-hZu"/>
+                        <outlet property="triviaButton" destination="Q5m-7e-Y1K" id="Cd0-Cc-AEw"/>
+                        <outlet property="truthButton" destination="t1D-dX-u6p" id="Q8z-Rw-qhG"/>
+                        <outlet property="victimLabel" destination="Ms2-L3-XAW" id="5Ih-ez-Tcu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgo-ks-oaj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="69"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="beE-n8-xZS">
+            <objects>
+                <viewController id="NkS-Wa-eU9" customClass="TnTQuestionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0dY-qQ-AKU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="mKA-Mb-DZJ">
+                                <rect key="frame" x="-7" y="0.0" width="334" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="0YP-J4-aSf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.27040815350000003" green="0.047041404990000001" blue="0.076478086410000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Truth" id="nDa-TH-JsK">
+                                        <barButtonItem key="backBarButtonItem" title="back now" id="geT-jJ-Z4U"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="hAf-62-y0j">
+                                            <connections>
+                                                <segue destination="NpB-dp-D0w" kind="modal" identifier="NextTurn" id="kke-bw-y3b"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Player's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="cFL-jM-cu8">
+                                <rect key="frame" x="29" y="44" width="263" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Nqn-G2-rNh">
+                                <rect key="frame" x="20" y="107" width="280" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="BackBubble_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextScreenButton:" destination="NkS-Wa-eU9" eventType="touchUpInside" id="roD-Rf-Hgj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="What is your favorite food?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumFontSize="10" id="S1q-Mk-QeZ">
+                                <rect key="frame" x="53" y="127" width="215" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="pWj-g5-kFf"/>
+                    <connections>
+                        <outlet property="bkgdImage" destination="mKA-Mb-DZJ" id="SUX-Ge-dJw"/>
+                        <outlet property="currentVictimLabel" destination="cFL-jM-cu8" id="ePz-Ko-3S2"/>
+                        <outlet property="navBar" destination="0YP-J4-aSf" id="ztM-2O-AFu"/>
+                        <outlet property="questionLabel" destination="S1q-Mk-QeZ" id="YlD-2w-naz"/>
+                        <outlet property="truthBkgdButton" destination="Nqn-G2-rNh" id="M1H-3B-qs5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvc-R7-Ad3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="-239"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="4HP-JZ-bCb">
+            <objects>
+                <viewController id="qaZ-Jl-lSN" customClass="TnTQuestionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QZr-aE-LkG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bkgd_simple.png" id="fL3-kX-aCB">
+                                <rect key="frame" x="-6" y="0.0" width="332" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="quG-dR-bgL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.27040815350000003" green="0.047041404990000001" blue="0.076478086410000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Trivia" id="WkY-0e-jvV">
+                                        <barButtonItem key="backBarButtonItem" title="back now" id="Nfb-fy-HyN"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="XcG-zz-xiE">
+                                            <connections>
+                                                <segue destination="NpB-dp-D0w" kind="modal" identifier="NextTurn" id="d0j-Kd-gut"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Player's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="1Cm-Zl-ARP">
+                                <rect key="frame" x="29" y="44" width="263" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hEl-yN-WjH">
+                                <rect key="frame" x="21" y="278" width="280" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="OtherBkgdBubble_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bottomButtonPressed:" destination="qaZ-Jl-lSN" eventType="touchUpInside" id="AaK-c6-HT9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eoG-nJ-HFN">
+                                <rect key="frame" x="56" y="263" width="212" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="SeeAnswer_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerPressed:" destination="qaZ-Jl-lSN" eventType="touchUpInside" id="nzf-aD-bUB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="10" id="RSL-JN-97w">
+                                <rect key="frame" x="45" y="290" width="234" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zu6-5A-WbJ">
+                                <rect key="frame" x="20" y="94" width="280" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="OtherBkgdBubble_simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="topButtonPressed:" destination="qaZ-Jl-lSN" eventType="touchUpInside" id="Loc-Jf-jC0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Which part of the brain temporarily stores memories?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WmS-nZ-zj9">
+                                <rect key="frame" x="45" y="114" width="229" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.86930334570000001" blue="0.78439199920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="eO0-dv-2sa"/>
+                    <connections>
+                        <outlet property="answerButton" destination="eoG-nJ-HFN" id="XUE-vY-ewE"/>
+                        <outlet property="answerLabel" destination="RSL-JN-97w" id="nEl-66-bKX"/>
+                        <outlet property="bkgdImage2" destination="fL3-kX-aCB" id="bgi-Si-Zf6"/>
+                        <outlet property="currentVictimLabel" destination="1Cm-Zl-ARP" id="ask-7n-ipC"/>
+                        <outlet property="navBar2" destination="quG-dR-bgL" id="2mf-55-Dss"/>
+                        <outlet property="questionLabel" destination="WmS-nZ-zj9" id="F7m-fN-3Ld"/>
+                        <outlet property="triviaBkgdButton1" destination="zu6-5A-WbJ" id="hBw-ga-pC2"/>
+                        <outlet property="triviaBkgdButton2" destination="hEl-yN-WjH" id="PXf-Tf-nxe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peD-Pf-65w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2002" y="577"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="+_simple.png" width="288" height="285"/>
+        <image name="-_simple.png" width="288" height="285"/>
+        <image name="BackBubble_simple.png" width="288" height="357"/>
+        <image name="Back_simple.png" width="145" height="55"/>
+        <image name="Main_simple 6 OpeningScreen.png" width="1069" height="347"/>
+        <image name="OtherBkgdBubble_simple.png" width="288" height="199"/>
+        <image name="Play_simple.png" width="432" height="296"/>
+        <image name="SeeAnswer_simple.png" width="144" height="73"/>
+        <image name="Settings_simple.png" width="145" height="55"/>
+        <image name="Shake_simple.png" width="432" height="296"/>
+        <image name="Trivia_simple.png" width="288" height="288"/>
+        <image name="Truth_simple.png" width="288" height="290"/>
+        <image name="bkgd_simple.png" width="179" height="264"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="xYm-jo-GaH"/>
+        <segue reference="db6-Cf-Y2P"/>
+    </inferredMetricsTieBreakers>
+</document>
